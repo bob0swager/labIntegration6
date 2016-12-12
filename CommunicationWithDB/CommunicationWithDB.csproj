@@ -83,6 +83,7 @@
     <Compile Include="Connection.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="TypeConverter.cs" />
+    <Compile Include="VisualForm.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

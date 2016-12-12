@@ -108,6 +108,12 @@ namespace CommunicationWithDB
             return completedOgdl;
         }
 
+            static public string returnXMLDesign(string xml)
+        {
+            string xmlDesign = xml.Insert(22, "<?xml-stylesheet type='text/css' href='style1.css'?>");     
+            return xmlDesign;
+        }
+
         static public string fillStartupObjectYaml(Startup startup)
         {
             string ret = null;

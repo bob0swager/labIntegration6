@@ -25,6 +25,7 @@
         <TextBox x:Name="txtFlds" HorizontalAlignment="Left" Height="23" Margin="165,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="93"/>
         <TextBox x:Name="txtIds" HorizontalAlignment="Left" Height="23" Margin="457,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="71"/>
         <Label x:Name="label" Content="Info: fields:  Id,Name, ImageUrl, StartupLink, DescriptionStartup, Link, TwitterLink, GithubLink, FacebookLink, &#xD;&#xA;LinkedinLink, AngelLink, DescriptionProduct, LinkVideo, Founder, Location" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" Width="615"/>
+        <ComboBox x:Name="cmbStyle" HorizontalAlignment="Left" Margin="515,23,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

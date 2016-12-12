@@ -20,6 +20,7 @@ namespace CommunicationWithDB
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static ComboBox selDesign;
         public MainWindow()
         {
             InitializeComponent();
@@ -27,7 +28,13 @@ namespace CommunicationWithDB
             cmbType.Items.Insert(1, "JSON");
             cmbType.Items.Insert(2, "YAML");
             cmbType.Items.Insert(3, "OGDL");
+            cmbType.Items.Insert(4, "XML with style");
             cmbType.SelectedIndex = 0;
+
+            cmbStyle.Items.Insert(0, "style 1");
+            cmbStyle.Items.Insert(1, "style 2");
+            cmbStyle.SelectedIndex = 0;
+            selDesign = cmbStyle;
             Connection con = new Connection();
         }
 
